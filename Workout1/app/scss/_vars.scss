@@ -1,0 +1,61 @@
+$main__bg: #1f1c26;
+$navigation__color: #f2f2f2;
+$white: #ffffff;
+$subtitle: rgba(255, 255, 255, 0.36);
+$btn: #f24b88;
+$border__section: #59253e;
+$LEARN__MORE-btn: #1f1c26;
+$nav__cards: #332f3c;
+$team__card-bleck: #0d0d0d;
+$team__card-white: #e5e5e5;
+
+.title {
+  display: inline;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: $white;
+}
+
+.subtext {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: $subtitle;
+}
+
+.main__bg {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: auto;
+  background-color: $main__bg;
+}
+
+.btn__small {
+  padding: 5px 14px;
+
+  text-decoration: none;
+
+  background-color: $btn;
+  border-radius: 5px;
+}
+
+.btn-small-style {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: $white;
+}
+
+.nav__link-style {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: $white;
+}
