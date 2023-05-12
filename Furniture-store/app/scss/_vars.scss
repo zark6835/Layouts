@@ -1,0 +1,54 @@
+$white: #ffffff;
+$bleck: #1e1e1e;
+$orange: #e58411;
+$yellow: #f6b76f;
+$gray: #8d8d8d;
+$blue: #0d1b39;
+$light-yellow: #f6973f;
+$grat-bg: #f7f7f7;
+
+.logo {
+  text-decoration: none;
+  text-transform: capitalize;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: $white;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 63px;
+
+  color: $bleck;
+}
+
+.subsection__title {
+  text-transform: uppercase;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.175em;
+
+  color: #e58411;
+}
+
+.choose__card-link {
+  text-decoration: none;
+  display: flex;
+  gap: 11.5px;
+  width: 116px;
+}
+
+.card-link-style {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 185%;
+
+  color: #e58411;
+}

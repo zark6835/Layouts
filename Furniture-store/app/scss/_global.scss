@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.bg__img {
+  width: 100%;
+  height: 1084px;
+  background: url(../images/bg__img.png) center no-repeat;
+  background-size: cover;
+}
+
