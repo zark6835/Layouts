@@ -1,0 +1,140 @@
+.main__bgr {
+  background: var(--main__bg);
+}
+
+.cards__wrapper {
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+.title__section {
+  padding-bottom: 44px;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: var(--bleck);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3 , 418px);
+  column-gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.card__img{
+  width: 100%;
+  height: 352px; 
+}
+
+.card__img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card__content {
+  border: 1px solid var(--border__cards);
+  border-radius: 4px;
+}
+
+.card__information {
+  padding: 35px 32px 32px;
+}
+
+.cards__data {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: var(--date__color);
+}
+
+.cards__text {
+  padding: 26px 0 34px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: var(--bleck);
+}
+
+.cards__more {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: var(--link);
+}
+
+@media screen and (max-width: 1080px) {
+  .cards__wrapper{
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  
+  .cards__data {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 751px) {  
+  .title__section {
+    padding-bottom: 56px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(3 , 187px);
+  }
+
+
+  .cards__text {
+    padding: 28px 0 28px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cards__wrapper{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .cards__wrapper {
+    padding-top: 80px;
+  }
+  
+  .title__section {
+    padding-bottom: 78px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .cards {
+    display: block;
+    max-width: 311px;
+  }
+  
+  .card__content{
+    margin-bottom: 32px;
+    
+  }
+
+  .cards__text {
+    padding: 28px 0 28px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
